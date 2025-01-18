@@ -17,7 +17,7 @@ int main(){
         if (year % 4 == 0)
     {
         cout<<"Leap year";
-    } else
+    } else 
         cout<<"Not a leap year";
     }
     return 0;
