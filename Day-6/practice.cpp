@@ -16,15 +16,26 @@ int main(){
     // }
 
     //STAR PATTERN 
-    int n = 6;
-    for (int i = 1; i <= n; i++)
+    // int n = 6;
+    // for (int i = 1; i <= n; i++)
+    // {
+    //     for (int j = 1; j <= i; j++)
+    //     {
+    //         cout << "*" << " ";
+    //     }
+    //     cout << endl;
+    // }
+    
+    //INVERTED PATTERN
+    int n = 10;
+    for (int  i = n; i >= 1; i--)
     {
-        for (int j = 1; j <= i; j++)
+        for (int j = i; j >= 1; j--)
         {
-            cout << "*" << " ";
+            cout << "* ";
         }
         cout << endl;
     }
-    
+
     return 0;
 }
